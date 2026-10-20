@@ -13,4 +13,6 @@ fahrenheit = celsius * 9 / 5 + 32
 # Show the result
 print("Fahrenheit:", fahrenheit)
 print(celsius)
-print(fahrenheit)
+
+print("Kesa laga mera mazaak")
+print("Hahahahahahahhahahahhhahahahahhahah")

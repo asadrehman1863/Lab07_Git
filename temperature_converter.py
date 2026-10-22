@@ -1,6 +1,6 @@
 # Temperature Converter
 # A small program for practising Git and GitHub.
-# It converts a temperature from Celsius to Fahrenheit.
+# It converts a temperature from Celsius to Fahrenheit and Kelvin.
 #
 # How to run it:  python temperature_converter.py
 
@@ -10,8 +10,12 @@ celsius = float(input("Temperature in Celsius: "))
 # Convert to Fahrenheit
 fahrenheit = celsius * 9 / 5 + 32
 
-# Show the result
+# Convert to Kelvin
+kelvin = celsius + 273.15
+
+# Show the results
 print("Fahrenheit:", fahrenheit)
+print("Kelvin:", kelvin)
 print(celsius)
 
 print("Kesa laga mera mazaak")
